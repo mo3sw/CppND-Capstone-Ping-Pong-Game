@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PingPong.dir/src/player_paddle.cpp.o"
   "CMakeFiles/PingPong.dir/src/ball.cpp.o"
   "CMakeFiles/PingPong.dir/src/game.cpp.o"
+  "CMakeFiles/PingPong.dir/src/controller.cpp.o"
   "PingPong.pdb"
   "PingPong"
 )

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/workspace/CppND-Capstone-Ping-Pong-Game/src/ball.cpp" "/home/workspace/CppND-Capstone-Ping-Pong-Game/build/CMakeFiles/PingPong.dir/src/ball.cpp.o"
+  "/home/workspace/CppND-Capstone-Ping-Pong-Game/src/controller.cpp" "/home/workspace/CppND-Capstone-Ping-Pong-Game/build/CMakeFiles/PingPong.dir/src/controller.cpp.o"
   "/home/workspace/CppND-Capstone-Ping-Pong-Game/src/game.cpp" "/home/workspace/CppND-Capstone-Ping-Pong-Game/build/CMakeFiles/PingPong.dir/src/game.cpp.o"
   "/home/workspace/CppND-Capstone-Ping-Pong-Game/src/game_renderer.cpp" "/home/workspace/CppND-Capstone-Ping-Pong-Game/build/CMakeFiles/PingPong.dir/src/game_renderer.cpp.o"
   "/home/workspace/CppND-Capstone-Ping-Pong-Game/src/main.cpp" "/home/workspace/CppND-Capstone-Ping-Pong-Game/build/CMakeFiles/PingPong.dir/src/main.cpp.o"
