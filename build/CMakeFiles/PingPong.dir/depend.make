@@ -95,8 +95,10 @@ CMakeFiles/PingPong.dir/src/controller.cpp.o: /usr/include/SDL2/begin_code.h
 CMakeFiles/PingPong.dir/src/controller.cpp.o: /usr/include/SDL2/close_code.h
 
 CMakeFiles/PingPong.dir/src/game.cpp.o: ../src/ball.h
+CMakeFiles/PingPong.dir/src/game.cpp.o: ../src/controller.h
 CMakeFiles/PingPong.dir/src/game.cpp.o: ../src/game.cpp
 CMakeFiles/PingPong.dir/src/game.cpp.o: ../src/game.h
+CMakeFiles/PingPong.dir/src/game.cpp.o: ../src/game_renderer.h
 CMakeFiles/PingPong.dir/src/game.cpp.o: ../src/player_paddle.h
 CMakeFiles/PingPong.dir/src/game.cpp.o: /usr/include/SDL2/SDL.h
 CMakeFiles/PingPong.dir/src/game.cpp.o: /usr/include/SDL2/SDL_assert.h

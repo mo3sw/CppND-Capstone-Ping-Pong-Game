@@ -16,13 +16,16 @@ int main() {
   constexpr std::size_t kGridWidth{32};
   constexpr std::size_t kGridHeight{32};
   
-  Game_Renderer renderer(kScreenWidth, kScreenHeight, kGridWidth, kGridHeight);
+//   Game_Renderer renderer(kScreenWidth, kScreenHeight, kGridWidth, kGridHeight);
   
-  Player_Paddle p1(20, 0, 20, 50);
-  Player_Paddle p2(600, 0, 20, 50);
-  Ball ball(315, 315, 10, 10);
+//   Controller player1_controller{0};
+//   Controller player2_controller{1};
   
-  renderer.Render(p1, p2, ball);
+//   Player_Paddle p1(20, 0, 20, 50);
+//   Player_Paddle p2(600, 0, 20, 50);
+//   Ball ball(315, 315, 10, 10);
+  
+//   renderer.Render(p1, p2, ball);
   std::this_thread::sleep_for(std::chrono::milliseconds(10000));
   
   return 0;
