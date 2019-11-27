@@ -206,6 +206,9 @@ PingPong_BINARY_DIR:STATIC=/home/workspace/CppND-Capstone-Ping-Pong-Game/build
 //Value Computed by CMake
 PingPong_SOURCE_DIR:STATIC=/home/workspace/CppND-Capstone-Ping-Pong-Game
 
+//The directory containing a CMake configuration file for SDL2.
+SDL2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SDL2
+
 
 ########################
 # INTERNAL cache entries

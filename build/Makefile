@@ -123,6 +123,87 @@ PingPong/fast:
 	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/build
 .PHONY : PingPong/fast
 
+src/ball.o: src/ball.cpp.o
+
+.PHONY : src/ball.o
+
+# target to build an object file
+src/ball.cpp.o:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/ball.cpp.o
+.PHONY : src/ball.cpp.o
+
+src/ball.i: src/ball.cpp.i
+
+.PHONY : src/ball.i
+
+# target to preprocess a source file
+src/ball.cpp.i:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/ball.cpp.i
+.PHONY : src/ball.cpp.i
+
+src/ball.s: src/ball.cpp.s
+
+.PHONY : src/ball.s
+
+# target to generate assembly for a file
+src/ball.cpp.s:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/ball.cpp.s
+.PHONY : src/ball.cpp.s
+
+src/game.o: src/game.cpp.o
+
+.PHONY : src/game.o
+
+# target to build an object file
+src/game.cpp.o:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/game.cpp.o
+.PHONY : src/game.cpp.o
+
+src/game.i: src/game.cpp.i
+
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.cpp.i:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/game.cpp.i
+.PHONY : src/game.cpp.i
+
+src/game.s: src/game.cpp.s
+
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.cpp.s:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/game.cpp.s
+.PHONY : src/game.cpp.s
+
+src/game_renderer.o: src/game_renderer.cpp.o
+
+.PHONY : src/game_renderer.o
+
+# target to build an object file
+src/game_renderer.cpp.o:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/game_renderer.cpp.o
+.PHONY : src/game_renderer.cpp.o
+
+src/game_renderer.i: src/game_renderer.cpp.i
+
+.PHONY : src/game_renderer.i
+
+# target to preprocess a source file
+src/game_renderer.cpp.i:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/game_renderer.cpp.i
+.PHONY : src/game_renderer.cpp.i
+
+src/game_renderer.s: src/game_renderer.cpp.s
+
+.PHONY : src/game_renderer.s
+
+# target to generate assembly for a file
+src/game_renderer.cpp.s:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/game_renderer.cpp.s
+.PHONY : src/game_renderer.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -150,6 +231,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/player_paddle.o: src/player_paddle.cpp.o
+
+.PHONY : src/player_paddle.o
+
+# target to build an object file
+src/player_paddle.cpp.o:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/player_paddle.cpp.o
+.PHONY : src/player_paddle.cpp.o
+
+src/player_paddle.i: src/player_paddle.cpp.i
+
+.PHONY : src/player_paddle.i
+
+# target to preprocess a source file
+src/player_paddle.cpp.i:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/player_paddle.cpp.i
+.PHONY : src/player_paddle.cpp.i
+
+src/player_paddle.s: src/player_paddle.cpp.s
+
+.PHONY : src/player_paddle.s
+
+# target to generate assembly for a file
+src/player_paddle.cpp.s:
+	$(MAKE) -f CMakeFiles/PingPong.dir/build.make CMakeFiles/PingPong.dir/src/player_paddle.cpp.s
+.PHONY : src/player_paddle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... PingPong"
 	@echo "... edit_cache"
+	@echo "... src/ball.o"
+	@echo "... src/ball.i"
+	@echo "... src/ball.s"
+	@echo "... src/game.o"
+	@echo "... src/game.i"
+	@echo "... src/game.s"
+	@echo "... src/game_renderer.o"
+	@echo "... src/game_renderer.i"
+	@echo "... src/game_renderer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/player_paddle.o"
+	@echo "... src/player_paddle.i"
+	@echo "... src/player_paddle.s"
 .PHONY : help
 
 

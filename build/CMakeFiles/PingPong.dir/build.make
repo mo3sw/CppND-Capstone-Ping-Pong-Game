@@ -70,17 +70,77 @@ CMakeFiles/PingPong.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PingPong.dir/src/main.cpp.s"
 	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/CppND-Capstone-Ping-Pong-Game/src/main.cpp -o CMakeFiles/PingPong.dir/src/main.cpp.s
 
+CMakeFiles/PingPong.dir/src/game_renderer.cpp.o: CMakeFiles/PingPong.dir/flags.make
+CMakeFiles/PingPong.dir/src/game_renderer.cpp.o: ../src/game_renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/CppND-Capstone-Ping-Pong-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PingPong.dir/src/game_renderer.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PingPong.dir/src/game_renderer.cpp.o -c /home/workspace/CppND-Capstone-Ping-Pong-Game/src/game_renderer.cpp
+
+CMakeFiles/PingPong.dir/src/game_renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PingPong.dir/src/game_renderer.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/CppND-Capstone-Ping-Pong-Game/src/game_renderer.cpp > CMakeFiles/PingPong.dir/src/game_renderer.cpp.i
+
+CMakeFiles/PingPong.dir/src/game_renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PingPong.dir/src/game_renderer.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/CppND-Capstone-Ping-Pong-Game/src/game_renderer.cpp -o CMakeFiles/PingPong.dir/src/game_renderer.cpp.s
+
+CMakeFiles/PingPong.dir/src/player_paddle.cpp.o: CMakeFiles/PingPong.dir/flags.make
+CMakeFiles/PingPong.dir/src/player_paddle.cpp.o: ../src/player_paddle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/CppND-Capstone-Ping-Pong-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PingPong.dir/src/player_paddle.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PingPong.dir/src/player_paddle.cpp.o -c /home/workspace/CppND-Capstone-Ping-Pong-Game/src/player_paddle.cpp
+
+CMakeFiles/PingPong.dir/src/player_paddle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PingPong.dir/src/player_paddle.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/CppND-Capstone-Ping-Pong-Game/src/player_paddle.cpp > CMakeFiles/PingPong.dir/src/player_paddle.cpp.i
+
+CMakeFiles/PingPong.dir/src/player_paddle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PingPong.dir/src/player_paddle.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/CppND-Capstone-Ping-Pong-Game/src/player_paddle.cpp -o CMakeFiles/PingPong.dir/src/player_paddle.cpp.s
+
+CMakeFiles/PingPong.dir/src/ball.cpp.o: CMakeFiles/PingPong.dir/flags.make
+CMakeFiles/PingPong.dir/src/ball.cpp.o: ../src/ball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/CppND-Capstone-Ping-Pong-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PingPong.dir/src/ball.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PingPong.dir/src/ball.cpp.o -c /home/workspace/CppND-Capstone-Ping-Pong-Game/src/ball.cpp
+
+CMakeFiles/PingPong.dir/src/ball.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PingPong.dir/src/ball.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/CppND-Capstone-Ping-Pong-Game/src/ball.cpp > CMakeFiles/PingPong.dir/src/ball.cpp.i
+
+CMakeFiles/PingPong.dir/src/ball.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PingPong.dir/src/ball.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/CppND-Capstone-Ping-Pong-Game/src/ball.cpp -o CMakeFiles/PingPong.dir/src/ball.cpp.s
+
+CMakeFiles/PingPong.dir/src/game.cpp.o: CMakeFiles/PingPong.dir/flags.make
+CMakeFiles/PingPong.dir/src/game.cpp.o: ../src/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/CppND-Capstone-Ping-Pong-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PingPong.dir/src/game.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PingPong.dir/src/game.cpp.o -c /home/workspace/CppND-Capstone-Ping-Pong-Game/src/game.cpp
+
+CMakeFiles/PingPong.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PingPong.dir/src/game.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/CppND-Capstone-Ping-Pong-Game/src/game.cpp > CMakeFiles/PingPong.dir/src/game.cpp.i
+
+CMakeFiles/PingPong.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PingPong.dir/src/game.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/CppND-Capstone-Ping-Pong-Game/src/game.cpp -o CMakeFiles/PingPong.dir/src/game.cpp.s
+
 # Object files for target PingPong
 PingPong_OBJECTS = \
-"CMakeFiles/PingPong.dir/src/main.cpp.o"
+"CMakeFiles/PingPong.dir/src/main.cpp.o" \
+"CMakeFiles/PingPong.dir/src/game_renderer.cpp.o" \
+"CMakeFiles/PingPong.dir/src/player_paddle.cpp.o" \
+"CMakeFiles/PingPong.dir/src/ball.cpp.o" \
+"CMakeFiles/PingPong.dir/src/game.cpp.o"
 
 # External object files for target PingPong
 PingPong_EXTERNAL_OBJECTS =
 
 PingPong: CMakeFiles/PingPong.dir/src/main.cpp.o
+PingPong: CMakeFiles/PingPong.dir/src/game_renderer.cpp.o
+PingPong: CMakeFiles/PingPong.dir/src/player_paddle.cpp.o
+PingPong: CMakeFiles/PingPong.dir/src/ball.cpp.o
+PingPong: CMakeFiles/PingPong.dir/src/game.cpp.o
 PingPong: CMakeFiles/PingPong.dir/build.make
 PingPong: CMakeFiles/PingPong.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/CppND-Capstone-Ping-Pong-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PingPong"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/CppND-Capstone-Ping-Pong-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PingPong"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PingPong.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
