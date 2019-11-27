@@ -194,6 +194,8 @@ CMakeFiles/PingPong.dir/src/game_renderer.cpp.o
  /usr/include/SDL2/close_code.h
 CMakeFiles/PingPong.dir/src/main.cpp.o
  /home/workspace/CppND-Capstone-Ping-Pong-Game/src/ball.h
+ /home/workspace/CppND-Capstone-Ping-Pong-Game/src/controller.h
+ /home/workspace/CppND-Capstone-Ping-Pong-Game/src/game.h
  /home/workspace/CppND-Capstone-Ping-Pong-Game/src/game_renderer.h
  /home/workspace/CppND-Capstone-Ping-Pong-Game/src/main.cpp
  /home/workspace/CppND-Capstone-Ping-Pong-Game/src/player_paddle.h

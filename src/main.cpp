@@ -7,6 +7,7 @@
 #include "game_renderer.h"
 #include "player_paddle.h"
 #include "ball.h"
+#include "game.h"
 
 int main() {
   constexpr std::size_t kFramesPerSecond{60};
@@ -26,6 +27,9 @@ int main() {
 //   Ball ball(315, 315, 10, 10);
   
 //   renderer.Render(p1, p2, ball);
+  Game game;
+  game.Run();
+  
   std::this_thread::sleep_for(std::chrono::milliseconds(10000));
   
   return 0;

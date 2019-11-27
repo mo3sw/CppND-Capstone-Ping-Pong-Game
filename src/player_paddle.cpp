@@ -15,6 +15,10 @@ void Player_Paddle::setX(int x){
   sdlRect.x = x;
 }
 
+int Player_Paddle::getY(){
+  return sdlRect.y;
+}
+
 void Player_Paddle::setY(int y){
   sdlRect.y = y;
 }

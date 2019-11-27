@@ -9,6 +9,7 @@ class Player_Paddle{
   	~Player_Paddle();
   	void setX(int x);
   	void setY(int y);
+  	int getY();
   	void setWidth(int width);
   	void setHeight(int height);
   	SDL_Rect* getSDLRect();
