@@ -3,6 +3,7 @@
 
 CMakeFiles/PingPong.dir/src/ball.cpp.o: ../src/ball.cpp
 CMakeFiles/PingPong.dir/src/ball.cpp.o: ../src/ball.h
+CMakeFiles/PingPong.dir/src/ball.cpp.o: ../src/player_paddle.h
 CMakeFiles/PingPong.dir/src/ball.cpp.o: /usr/include/SDL2/SDL.h
 CMakeFiles/PingPong.dir/src/ball.cpp.o: /usr/include/SDL2/SDL_assert.h
 CMakeFiles/PingPong.dir/src/ball.cpp.o: /usr/include/SDL2/SDL_atomic.h

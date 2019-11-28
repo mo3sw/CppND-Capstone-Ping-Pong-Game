@@ -1,6 +1,8 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include <chrono>
+#include <thread>
 #include "SDL.h"
 #include "player_paddle.h"
 #include "ball.h"

@@ -4,6 +4,7 @@
 CMakeFiles/PingPong.dir/src/ball.cpp.o
  /home/workspace/CppND-Capstone-Ping-Pong-Game/src/ball.cpp
  /home/workspace/CppND-Capstone-Ping-Pong-Game/src/ball.h
+ /home/workspace/CppND-Capstone-Ping-Pong-Game/src/player_paddle.h
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h

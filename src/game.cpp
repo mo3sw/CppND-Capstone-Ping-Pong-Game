@@ -15,6 +15,7 @@ void Game::Run(){
   Uint32 frame_duration;
   int frame_count = 0;
   bool running = true;
+  ball.BallReset();
   
   while(running){
     frame_start = SDL_GetTicks();
@@ -23,12 +24,15 @@ void Game::Run(){
 //     player1_controller.HandleInput(running, p1);
 //     player2_controller.HandleInput2(running, p2);
     player1_controller.HandleInput(running, p1, p2);
-    
-    // Should Update the locations somewhere
+    bool goal = ball.Update(p1, p2);
     
     //Render
     renderer.Render(p1, p2, ball);
+    if(goal){
+      std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+    }
     
+    frame_end = SDL_GetTicks();
     frame_count++;
     frame_duration = frame_end - frame_start;
     if (frame_end - title_timestamp >= 1000) {
