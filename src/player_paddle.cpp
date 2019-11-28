@@ -20,6 +20,9 @@ int Player_Paddle::getY(){
 }
 
 void Player_Paddle::setY(int y){
+  if(y < 0 || y+sdlRect.h >=640){
+    return;
+  }
   sdlRect.y = y;
 }
 

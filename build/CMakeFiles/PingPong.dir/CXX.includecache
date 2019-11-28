@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/workspace/CppND-Capstone-Ping-Pong-Game/src/controller.cpp
-controller.h
-/home/workspace/CppND-Capstone-Ping-Pong-Game/src/controller.h
-
-/home/workspace/CppND-Capstone-Ping-Pong-Game/src/controller.h
-iostream
--
-SDL.h
-/home/workspace/CppND-Capstone-Ping-Pong-Game/src/SDL.h
+/home/workspace/CppND-Capstone-Ping-Pong-Game/src/player_paddle.cpp
 player_paddle.h
 /home/workspace/CppND-Capstone-Ping-Pong-Game/src/player_paddle.h
 

@@ -31,7 +31,7 @@ Game_Renderer::~Game_Renderer(){
   SDL_Quit();
 }
 
-void Game_Renderer::Render(Player_Paddle player_1, Player_Paddle player_2, Ball ball){
+void Game_Renderer::Render(Player_Paddle& player_1, Player_Paddle& player_2, Ball& ball){
   
   // Clear screen
   SDL_SetRenderDrawColor(sdl_renderer, 0x00, 0x00, 0x00, 0xFF);

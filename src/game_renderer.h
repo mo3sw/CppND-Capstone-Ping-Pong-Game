@@ -9,7 +9,7 @@ class Game_Renderer{
   public:
   	Game_Renderer(const std::size_t ScreenWidth, const std::size_t ScreenHeight, const std::size_t GridWidth, const std::size_t GridHeight);
   	~Game_Renderer();
-  	void Render(Player_Paddle player_1, Player_Paddle player_2, Ball ball);
+  	void Render(Player_Paddle& player_1, Player_Paddle& player_2, Ball& ball);
   	void UpdateWindowTitle();
   private:
   	SDL_Window *sdl_window;

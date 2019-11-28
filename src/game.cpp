@@ -21,8 +21,8 @@ void Game::Run(){
     
     // Input
 //     player1_controller.HandleInput(running, p1);
-    player2_controller.HandleInput(running, p2);
-    player1_controller.HandleInput(running, p1);
+//     player2_controller.HandleInput2(running, p2);
+    player1_controller.HandleInput(running, p1, p2);
     
     // Should Update the locations somewhere
     
