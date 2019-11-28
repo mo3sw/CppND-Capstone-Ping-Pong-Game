@@ -25,25 +25,25 @@ void Controller::HandleInput(bool& running, Player_Paddle& player1, Player_Paddl
   if(keystates[SDL_SCANCODE_W]){
     std::cout << "Here1\n";
     y = player1.getY();
-    y--;
+    y -= 5;
     player1.setY(y);
   }
   if(keystates[SDL_SCANCODE_S]){
 //     std::cout << "Here2\n";
     y = player1.getY();
-    y++;
+    y += 5;
     player1.setY(y);
   }
 //   std::cout << "Here3\n";
   if(keystates[SDL_SCANCODE_UP]){
     y = player2.getY();
-    y--;
+    y -= 5;
     player2.setY(y);
   }
 //   std::cout << "Here4\n";
   if(keystates[SDL_SCANCODE_DOWN]){
     y = player2.getY();
-    y++;
+    y += 5;
     player2.setY(y);
   }
 //   std::cout << "Here5\n";
