@@ -27,8 +27,8 @@ The project is a Ping Pong game between two players. Once you follow the instruc
 
 ## Capstone Project Rubic Points
 ### Compileing and testing
-Markup : - [ ] The project code must compile and run without errors
+- [ ] The project code must compile and run without errors
 
 ### Loops, Functions, I/O
-Markup : - [ ] A variety of control structures are used in the project. The project code is clearly organized into functions.
-		 - [X] Hello there
+- [ ] A variety of control structures are used in the project. The project code is clearly organized into functions.
+- [X] Hello there
