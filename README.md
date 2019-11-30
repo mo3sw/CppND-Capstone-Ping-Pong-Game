@@ -3,6 +3,9 @@ This project is the Capstone project for Udacity's C++ NanoDegree program [Udaci
 
 The project is a Ping Pong game between two players. Once you follow the instructions below to compile, build, and run the project, you can start playing imidiately. The game is a black screen with two pallets on the each side of the screen which the player can control and a ball starting in the middle which will start bouncing between the players. Once the ball reaches one of the side it considered as a goal and it will go back to the middle and start again.
 
+## Class Diagram
+<img src="Pics/class_diagram.jpg"/>
+
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
